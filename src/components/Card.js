@@ -11,7 +11,7 @@ import { WidgetsSharp } from '@mui/icons-material';
 
 export default function ImgMediaCard(props) {
   return (
-    <Card sx={{borderRadius:"15px",padding:"10px",background: "rgba(255, 255, 255, 0.95)",height:"400px",marginLeft:"10px",marginRight:"10px", marginTop:"20px",maxWidth: 345 }}>
+    <Card sx={{borderRadius:"15px",padding:"10px",background: "rgba(255, 255, 255, 0.99)",height:"400px",marginLeft:"10px",marginRight:"10px", marginTop:"20px",maxWidth: 345 }}>
       <CardMedia
         component="img"
         alt="green iguana"
