@@ -10,7 +10,7 @@ const ResponsiveAppBar = () => {
   
 
   return (
-    <AppBar position="static">
+    <AppBar className="navbar" position="static">
     
         <Toolbar disableGutters>
           <Typography

@@ -11,12 +11,13 @@ import { WidgetsSharp } from '@mui/icons-material';
 
 export default function ImgMediaCard(props) {
   return (
-    <Card sx={{height:"400px",marginLeft:"10px",marginRight:"10px", marginTop:"20px",maxWidth: 345 }}>
+    <Card sx={{borderRadius:"15px",padding:"10px",background: "rgba(255, 255, 255, 0.95)",height:"400px",marginLeft:"10px",marginRight:"10px", marginTop:"20px",maxWidth: 345 }}>
       <CardMedia
         component="img"
         alt="green iguana"
         height="160"
         image={props.image}
+        sx={{borderRadius:"15px"}}
       
 
       />
@@ -24,7 +25,7 @@ export default function ImgMediaCard(props) {
         <Typography gutterBottom variant="h5" component="div">
           {props.title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" >
           {props.description}
         </Typography>
       </CardContent>

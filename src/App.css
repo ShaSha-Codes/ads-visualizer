@@ -1,3 +1,7 @@
+*{
+  margin:0;
+  padding:0;
+}
 .App {
   text-align: center;
 }
@@ -38,8 +42,17 @@
 }
 
 body{
-  background-color: #f8f9d2;
-  background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+  background-image: url("./images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.navbar{
+  background: rgba(0, 171, 83, 0);
+background: linear-gradient(90deg, rgba(0,171,84,0.6) 0%, rgba(0,171,84,0.4) 100%);
+
+
 
 
 
